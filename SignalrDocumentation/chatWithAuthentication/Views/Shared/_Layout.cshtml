@@ -1,0 +1,84 @@
+﻿@inject ApplicationContext context
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - Material Messaging App Concept</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<!-- partial:index.partial.html -->
+<body>
+    <a class="btn btn-primary" asp-action="SignOut" asp-controller="Account">SignOut</a>
+    <div class="container">
+        <div class="row">
+            <nav class="menu">
+                <ul class="items">
+                    <li class="item">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                    </li>
+                    <li class="item">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </li>
+                    <li class="item">
+                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                    </li>
+                    <li class="item item-active">
+                        <i class="fa fa-commenting" aria-hidden="true"></i>
+                    </li>
+                    <li class="item">
+                        <i class="fa fa-file" aria-hidden="true"></i>
+                    </li>
+                    <li class="item">
+                        <i class="fa fa-cog" aria-hidden="true"></i>
+                    </li>
+                </ul>
+            </nav>
+
+            <section class="discussions">
+                <div class="discussion search">
+                    <div class="searchbar">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input type="text" placeholder="Search...">
+                    </div>
+                </div>
+
+                @foreach (var user in context.Users.Where(u => u.UserName != User.Identity.Name))
+                {
+                    <a asp-action="ChatPrivate" asp-controller="Chat" asp-route-ReceiverId="@user.Id">
+                        <div class="discussion">
+                            <div class="photo" style="background-image: url(http://e0.365dm.com/16/08/16-9/20/theirry-henry-sky-sports-pundit_3766131.jpg?20161212144602);">
+                                <div @*class="online"*@></div>
+                            </div>
+                            <div class="desc-contact">
+                                <p class="name">@user.UserName</p>
+                                <p class="message">Let's meet for a coffee or something today ?</p>
+                            </div>
+                            <div class="timer">3 min</div>
+                        </div>
+                    </a>
+                }
+            </section>
+
+            <section class="chat">
+                @RenderBody()
+            </section>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/signalr/dist/browser/signalr.min.js"></script>
+    <script src="~/lib/signalr/dist/browser/signalr.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    @await RenderSectionAsync("imp",required:false)
+    @*@await RenderSectionAsync("js",required:false)*@
+    <!-- partial -->
+    <script src="~/js/script.js"></script>
+
+</body>
+</html>

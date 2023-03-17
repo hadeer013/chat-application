@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewData["Title"] = "ChatPrivateTrial";
+    Layout = "~/Views/Shared/_AccountLayout.cshtml";
+}
+
+<h1>ChatPrivateTrial</h1>
+<h2 id="name">@ViewData["RecieverName"]</h2>
+<input id="input" type="text"/>
+<button id="btn" class="btn btn-primary">send</button>
+<ol id="list">
+    <li>Chat list</li>
+</ol>
+
+@section js{
+    <script>
+        var connection = new signalR.HubConnectionBuilder()
+            .withUrl("/chatter")
+            .build();
+
+
+        connection.on("NewMsg", function (content, date) {
+            var li = document.createElement("li");
+            li.textContent = `${content} at ${date}`;
+            document.getElementById("list").appendChild(li);
+        });
+
+        //document.getElementById("clickS").addEventListener("click", async (event) => {
+        //    var msg = document.getElementById("write-message").value;
+        //    try {
+        //        var n = document.getElementsByClassName("name")[0].innerHTML
+        //        await connection.invoke("SendMessagePrivate", n, msg);
+        //    }
+        //    catch (e) {
+        //        console.error(e.toString());
+        //    }
+        //    event.preventDefault();
+        //});
+        document.getElementById("btn").addEventListener("click", async (event) => {
+            var msg = document.getElementById("input").value;
+            try {
+                var n = document.getElementById("name").innerHTML
+                await connection.invoke("SendMessagePrivate", n, msg);
+            }
+            catch (e) {
+                console.error(e.toString());
+            }
+            event.preventDefault();
+        });
+
+        (async () => {
+            try {
+                await connection.start();
+            }
+            catch (e) {
+                console.error(e.toString());
+            }
+        })();
+    </script>
+}

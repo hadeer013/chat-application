@@ -1,0 +1,218 @@
+﻿@model IEnumerable<MessageViewModel>
+@{
+    ViewData["Title"] = "ChatPrivate";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="header-chat">
+    <i class="icon fa fa-user-o" aria-hidden="true"></i>
+    <p id="@ViewData["RecieverName"]" class="name">@ViewData["RecieverName"]</p>
+    <i class="icon clickable fa fa-ellipsis-h right" aria-hidden="true"></i>
+</div>
+
+@if (Model.Count() > 0)
+{
+
+    <div class="messages-chat">
+        @foreach (var mes in Model)
+        {
+            @if (mes.IsSent)
+            {
+                <div class="message text-only">
+                    <div class="response">
+                        <p class="text"> @mes.Contetnt</p>
+                    </div>
+                </div>
+                <p class="response-time time"> @mes.date</p>
+            }
+            else
+            {
+                <div class="message text-only">
+                    <p class="text">@mes.Contetnt</p>
+                </div>
+                <p class="time"> @mes.date</p>
+            }
+        }
+        <div id="NewMessage"></div>
+    </div>
+
+}@*else
+{
+    <div id="noUser"> <p>Start a conversation With @ViewData["RecieverName"]</p></div>
+}
+
+
+<div id="mychat-list" class="messages-chat"></div>
+
+<div class="footer-chat">
+    <i class="icon fa fa-smile-o clickable" style="font-size:25pt;" aria-hidden="true"></i>
+    <input id="write-message" type="text" class="write-message" placeholder="Type your message here">
+    <i id="clickS" class="icon send fa fa-paper-plane-o clickable" aria-hidden="true"></i>
+</div>
+
+
+@section imp{
+
+    <script>
+        var noUser = document.getElementById("noUser")
+        var connection = new signalR.HubConnectionBuilder()
+            .withUrl("/chatter")
+            .build();
+
+        connection.on("NewMsgSender", function (content, date) {
+            noUser.remove()
+            var dv11 = document.createElement("div");
+            dv1.className = "message text-only";
+            var dv21 = document.createElement("div");
+            dv2.className = "response"
+            var p11 = document.createElement("p");
+            p11.className = "text"
+            p11.innerHTML = content
+            dv21.appendChild(p1);
+            dv11.appendChild(dv2);
+            var p21 = document.createElement("p");
+            p21.className = "response-time time"
+            p21.innerHTML = date
+            document.getElementById("mychat-list").appendChild(dv11);
+            document.getElementById("mychat-list").appendChild(p21);
+            
+
+        });
+
+        connection.on("NewMsg", function (content, date) {
+            noUser.remove()
+            var dv12 = document.createElement("div");
+            dv12.className = "message text-only";
+
+            var p12 = document.createElement("p");
+            p12.className = "text";
+            p12.innerHTML = content;
+            dv12.appendChild(p1);
+            var p22 = document.createElement("p");
+            p22.className = "time"
+            p22.innerHTML = date
+            document.getElementById("mychat-list").appendChild(dv12);
+            document.getElementById("mychat-list").appendChild(p22);
+            
+        });
+
+        document.getElementById("clickS").addEventListener("click", async (event) => {
+            var msg = document.getElementById("write-message").value;
+            
+            var rName = document.getElementsByClassName("name")[0].innerHTML
+            try {
+                document.getElementById("write-message").value = ""
+                await connection.invoke("SendMessagePrivate", rName, msg);
+                
+            }
+            catch (e) {
+                console.error(e.toString());
+            }
+            event.preventDefault();
+        });
+
+        (async () => {
+            try {
+                await connection.start();
+            }
+            catch (e) {
+                console.error(e.toString());
+            }
+        })();
+
+    </script>
+}*@
+
+
+
+<input id="input" type="text"/>
+<button id="clickS" class="btn btn-primary">send</button>
+
+<ol id="messages-chat">
+    <li>Chat list</li>
+</ol>
+
+@section imp {
+    <script>
+        //var connection = new signalR.HubConnectionBuilder()
+        //    .withUrl("/chatter")
+        //    .build();
+
+
+        //connection.on("NewMsg", function (content, date) {
+        //    var li = document.createElement("li");
+        //    li.textContent = `${content} at ${date}`;
+        //    document.getElementById("list").appendChild(li);
+        //});
+
+        ////document.getElementById("clickS").addEventListener("click", async (event) => {
+        ////    var msg = document.getElementById("write-message").value;
+        ////    try {
+        ////        var n = document.getElementsByClassName("name")[0].innerHTML
+        ////        await connection.invoke("SendMessagePrivate", n, msg);
+        ////    }
+        ////    catch (e) {
+        ////        console.error(e.toString());
+        ////    }
+        ////    event.preventDefault();
+        ////});
+        //document.getElementById("btn").addEventListener("click", async (event) => {
+        //    var msg = document.getElementById("input")value;
+        //    try {
+        //        var n = document.getElementsByClassName("name")[0].innerHTML
+        //        await connection.invoke("SendMessagePrivate", n, msg);
+        //    }
+        //    catch (e) {
+        //        console.error(e.toString());
+        //    }
+        //    event.preventDefault();
+        //});
+
+        //(async () => {
+        //    try {
+        //        await connection.start();
+        //    }
+        //    catch (e) {
+        //        console.error(e.toString());
+        //    }
+        //})();
+
+        var connection = new signalR.HubConnectionBuilder()
+            .withUrl("/chatter")
+            .build();
+
+
+        connection.on("NewMsg", function (content, date,SName) {
+            var p = document.createElement("p");
+            p.textContent = `(NewMsg)${SName} :  ${content}  at ${date}`;
+            document.getElementById("messages-chat").appendChild(p);
+        });
+        connection.on("NewMsgSender", function (content, date, SName) {
+            var p = document.createElement("p");
+            p.textContent = `(NewMsgSender)${SName} :  ${content}  at ${date}`;
+            document.getElementById("messages-chat").appendChild(p);
+        });
+
+        document.getElementById("clickS").addEventListener("click", async (event) => {
+            var msg = document.getElementById("input").value;
+            try {
+                document.getElementById("input").value=""
+                var n = document.getElementsByClassName("name")[0].innerHTML
+                await connection.invoke("SendMessagePrivate", n, msg);
+            }
+            catch (e) {
+                console.error(e.toString());
+            }
+            event.preventDefault();
+        });
+
+        (async () => {
+            try {
+                await connection.start();
+            }
+            catch (e) {
+                console.error(e.toString());
+            }
+        })();
+    </script>
+}
+

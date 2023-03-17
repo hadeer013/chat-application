@@ -1,0 +1,29 @@
+﻿@model RegisterViewModel
+@{
+    ViewData["Title"] = "SignUp";
+    Layout = "~/Views/Shared/_Accountlayout.cshtml";
+}
+
+<h1>SignUp</h1>
+<form asp-action="SignUp" asp-controller="Account" method="post">
+
+    <div class="form-group" >
+        <label class="col-form-label" asp-for="UserName"></label>
+        <input class="form-control" asp-for="UserName"/>
+        <span asp-validation-for="UserName" class="text-danger"></span>
+    </div>
+    <div class="form-group" >
+        <label class="col-form-label" asp-for="Email"></label>
+        <input class="form-control" asp-for="Email"/>
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group" >
+        <label class="col-form-label" asp-for="Password"></label>
+        <input class="form-control" asp-for="Password"/>
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    
+    <input value="submit" class="btn btn-primary" type="submit"/>
+</form>
+<div><a  asp-action="LogIn">LogIn</a></div>
+ 
