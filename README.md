@@ -1,7 +1,7 @@
 # chat-application
 Real-time chat application using SignalR
 
-#Features
+# Features
 
 1-User Registration and Authentication: The chat application allows users to register and authenticate their identities securely. Users can create profiles, set up login credentials, and manage their account settings.
 
