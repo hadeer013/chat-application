@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodePen - Material Messaging App Concept</title>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat'>
@@ -12,34 +13,18 @@
 </head>
 <!-- partial:index.partial.html -->
 <body>
-    <a class="btn btn-primary" asp-action="SignOut" asp-controller="Account">SignOut</a>
+    
     <div class="container">
-        <div class="row">
-            <nav class="menu">
-                <ul class="items">
-                    <li class="item">
-                        <i class="fa fa-home" aria-hidden="true"></i>
-                    </li>
-                    <li class="item">
-                        <i class="fa fa-user" aria-hidden="true"></i>
-                    </li>
-                    <li class="item">
-                        <i class="fa fa-pencil" aria-hidden="true"></i>
-                    </li>
-                    <li class="item item-active">
-                        <i class="fa fa-commenting" aria-hidden="true"></i>
-                    </li>
-                    <li class="item">
-                        <i class="fa fa-file" aria-hidden="true"></i>
-                    </li>
-                    <li class="item">
-                        <i class="fa fa-cog" aria-hidden="true"></i>
-                    </li>
-                </ul>
-            </nav>
+        <div class="row" id="totalMsgArea" style="background-color:hotpink">
+            
 
             <section class="discussions">
                 <div class="discussion search">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <a class="btn btn-primary" asp-action="SignOut" asp-controller="Account">SignOut</a>
+                    }
+                    
                     <div class="searchbar">
                         <i class="fa fa-search" aria-hidden="true"></i>
                         <input type="text" placeholder="Search...">
@@ -55,7 +40,7 @@
                             </div>
                             <div class="desc-contact">
                                 <p class="name">@user.UserName</p>
-                                <p class="message">Let's meet for a coffee or something today ?</p>
+                                @* <p class="message">Let's meet for a coffee or something today ?</p> *@
                             </div>
                             <div class="timer">3 min</div>
                         </div>
@@ -79,6 +64,9 @@
     @*@await RenderSectionAsync("js",required:false)*@
     <!-- partial -->
     <script src="~/js/script.js"></script>
+    <script>
+        
+    </script>
 
 </body>
 </html>

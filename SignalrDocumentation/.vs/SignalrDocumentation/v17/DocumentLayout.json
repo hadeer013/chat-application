@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74A924EB-03E6-494A-A54E-901F0D0B04DE}|chatWithAuthentication\\chatWithAuthentication.csproj|F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatwithauthentication\\views\\chat\\chatprivate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74A924EB-03E6-494A-A54E-901F0D0B04DE}|chatWithAuthentication\\chatWithAuthentication.csproj|solutionrelative:chatwithauthentication\\views\\chat\\chatprivate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A924EB-03E6-494A-A54E-901F0D0B04DE}|chatWithAuthentication\\chatWithAuthentication.csproj|F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatwithauthentication\\wwwroot\\js\\chatprivate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{74A924EB-03E6-494A-A54E-901F0D0B04DE}|chatWithAuthentication\\chatWithAuthentication.csproj|solutionrelative:chatwithauthentication\\wwwroot\\js\\chatprivate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A924EB-03E6-494A-A54E-901F0D0B04DE}|chatWithAuthentication\\chatWithAuthentication.csproj|F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatwithauthentication\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A924EB-03E6-494A-A54E-901F0D0B04DE}|chatWithAuthentication\\chatWithAuthentication.csproj|solutionrelative:chatwithauthentication\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07B645B9-9FF6-4329-BEAD-CB975E37B536}|ChatWithAuth.DAL\\ChatWithAuth.DAL.csproj|F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatwithauth.dal\\data\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07B645B9-9FF6-4329-BEAD-CB975E37B536}|ChatWithAuth.DAL\\ChatWithAuth.DAL.csproj|solutionrelative:chatwithauth.dal\\data\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A924EB-03E6-494A-A54E-901F0D0B04DE}|chatWithAuthentication\\chatWithAuthentication.csproj|F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatwithauthentication\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A924EB-03E6-494A-A54E-901F0D0B04DE}|chatWithAuthentication\\chatWithAuthentication.csproj|solutionrelative:chatwithauthentication\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A924EB-03E6-494A-A54E-901F0D0B04DE}|chatWithAuthentication\\chatWithAuthentication.csproj|F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatwithauthentication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74A924EB-03E6-494A-A54E-901F0D0B04DE}|chatWithAuthentication\\chatWithAuthentication.csproj|solutionrelative:chatwithauthentication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A924EB-03E6-494A-A54E-901F0D0B04DE}|chatWithAuthentication\\chatWithAuthentication.csproj|f:\\githubrepos\\chat-application\\signalrdocumentation\\chatwithauthentication\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A924EB-03E6-494A-A54E-901F0D0B04DE}|chatWithAuthentication\\chatWithAuthentication.csproj|solutionrelative:chatwithauthentication\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A924EB-03E6-494A-A54E-901F0D0B04DE}|chatWithAuthentication\\chatWithAuthentication.csproj|f:\\githubrepos\\chat-application\\signalrdocumentation\\chatwithauthentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{74A924EB-03E6-494A-A54E-901F0D0B04DE}|chatWithAuthentication\\chatWithAuthentication.csproj|solutionrelative:chatwithauthentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74A924EB-03E6-494A-A54E-901F0D0B04DE}|chatWithAuthentication\\chatWithAuthentication.csproj|F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatwithauthentication\\hubs\\allusershub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74A924EB-03E6-494A-A54E-901F0D0B04DE}|chatWithAuthentication\\chatWithAuthentication.csproj|solutionrelative:chatwithauthentication\\hubs\\allusershub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatWithAuthentication\\appsettings.json",
+              "RelativeDocumentMoniker": "chatWithAuthentication\\appsettings.json",
+              "ToolTip": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatWithAuthentication\\appsettings.json",
+              "RelativeToolTip": "chatWithAuthentication\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAACNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-04T19:13:28.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AllUsersHub.cs",
+              "DocumentMoniker": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatWithAuthentication\\Hubs\\AllUsersHub.cs",
+              "RelativeDocumentMoniker": "chatWithAuthentication\\Hubs\\AllUsersHub.cs",
+              "ToolTip": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatWithAuthentication\\Hubs\\AllUsersHub.cs",
+              "RelativeToolTip": "chatWithAuthentication\\Hubs\\AllUsersHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T19:09:58.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatWithAuthentication\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "chatWithAuthentication\\Controllers\\AccountController.cs",
+              "ToolTip": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatWithAuthentication\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "chatWithAuthentication\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAqwD4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T19:10:02.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatWithAuthentication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "chatWithAuthentication\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatWithAuthentication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "chatWithAuthentication\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAmwBAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T19:10:03.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatWithAuthentication\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "chatWithAuthentication\\Hubs\\ChatHub.cs",
+              "ToolTip": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatWithAuthentication\\Hubs\\ChatHub.cs*",
+              "RelativeToolTip": "chatWithAuthentication\\Hubs\\ChatHub.cs*",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T19:10:03.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatPrivate.js",
+              "DocumentMoniker": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatWithAuthentication\\wwwroot\\js\\ChatPrivate.js",
+              "RelativeDocumentMoniker": "chatWithAuthentication\\wwwroot\\js\\ChatPrivate.js",
+              "ToolTip": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatWithAuthentication\\wwwroot\\js\\ChatPrivate.js",
+              "RelativeToolTip": "chatWithAuthentication\\wwwroot\\js\\ChatPrivate.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-04T19:10:03.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChatPrivate.cshtml",
+              "DocumentMoniker": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatWithAuthentication\\Views\\Chat\\ChatPrivate.cshtml",
+              "RelativeDocumentMoniker": "chatWithAuthentication\\Views\\Chat\\ChatPrivate.cshtml",
+              "ToolTip": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatWithAuthentication\\Views\\Chat\\ChatPrivate.cshtml",
+              "RelativeToolTip": "chatWithAuthentication\\Views\\Chat\\ChatPrivate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwA4AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T19:10:03.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatWithAuthentication\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "chatWithAuthentication\\Controllers\\ChatController.cs",
+              "ToolTip": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatWithAuthentication\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "chatWithAuthentication\\Controllers\\ChatController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAACYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T19:10:03.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Message.cs",
+              "DocumentMoniker": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\ChatWithAuth.DAL\\Data\\Message.cs",
+              "RelativeDocumentMoniker": "ChatWithAuth.DAL\\Data\\Message.cs",
+              "ToolTip": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\ChatWithAuth.DAL\\Data\\Message.cs",
+              "RelativeToolTip": "ChatWithAuth.DAL\\Data\\Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T19:10:03.297Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

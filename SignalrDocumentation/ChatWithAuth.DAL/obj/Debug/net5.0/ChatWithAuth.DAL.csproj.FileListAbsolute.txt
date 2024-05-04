@@ -10,3 +10,16 @@ C:\Users\Master\source\repos\SignalrDocumentation\ChatWithAuth.DAL\obj\Debug\net
 C:\Users\Master\source\repos\SignalrDocumentation\ChatWithAuth.DAL\obj\Debug\net5.0\refint\ChatWithAuth.DAL.dll
 C:\Users\Master\source\repos\SignalrDocumentation\ChatWithAuth.DAL\obj\Debug\net5.0\ChatWithAuth.DAL.pdb
 C:\Users\Master\source\repos\SignalrDocumentation\ChatWithAuth.DAL\obj\Debug\net5.0\ref\ChatWithAuth.DAL.dll
+F:\GitHubRepos\chat-application\SignalrDocumentation\ChatWithAuth.DAL\bin\Debug\net5.0\ChatWithAuth.DAL.deps.json
+F:\GitHubRepos\chat-application\SignalrDocumentation\ChatWithAuth.DAL\bin\Debug\net5.0\ChatWithAuth.DAL.dll
+F:\GitHubRepos\chat-application\SignalrDocumentation\ChatWithAuth.DAL\bin\Debug\net5.0\ChatWithAuth.DAL.pdb
+F:\GitHubRepos\chat-application\SignalrDocumentation\ChatWithAuth.DAL\obj\Debug\net5.0\ChatWithAuth.DAL.csproj.AssemblyReference.cache
+F:\GitHubRepos\chat-application\SignalrDocumentation\ChatWithAuth.DAL\obj\Debug\net5.0\ChatWithAuth.DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\GitHubRepos\chat-application\SignalrDocumentation\ChatWithAuth.DAL\obj\Debug\net5.0\ChatWithAuth.DAL.AssemblyInfoInputs.cache
+F:\GitHubRepos\chat-application\SignalrDocumentation\ChatWithAuth.DAL\obj\Debug\net5.0\ChatWithAuth.DAL.AssemblyInfo.cs
+F:\GitHubRepos\chat-application\SignalrDocumentation\ChatWithAuth.DAL\obj\Debug\net5.0\ChatWithAuth.DAL.csproj.CoreCompileInputs.cache
+F:\GitHubRepos\chat-application\SignalrDocumentation\ChatWithAuth.DAL\obj\Debug\net5.0\ChatWithAuth.DAL.sourcelink.json
+F:\GitHubRepos\chat-application\SignalrDocumentation\ChatWithAuth.DAL\obj\Debug\net5.0\ChatWithAuth.DAL.dll
+F:\GitHubRepos\chat-application\SignalrDocumentation\ChatWithAuth.DAL\obj\Debug\net5.0\refint\ChatWithAuth.DAL.dll
+F:\GitHubRepos\chat-application\SignalrDocumentation\ChatWithAuth.DAL\obj\Debug\net5.0\ChatWithAuth.DAL.pdb
+F:\GitHubRepos\chat-application\SignalrDocumentation\ChatWithAuth.DAL\obj\Debug\net5.0\ref\ChatWithAuth.DAL.dll

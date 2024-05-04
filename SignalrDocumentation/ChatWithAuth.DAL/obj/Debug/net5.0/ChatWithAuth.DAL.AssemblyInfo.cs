@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChatWithAuth.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+584533e25040dcdd5491d114e8a8f3ebfe918e27")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChatWithAuth.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChatWithAuth.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

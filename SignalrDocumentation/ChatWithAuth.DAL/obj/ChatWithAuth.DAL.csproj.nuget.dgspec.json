@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Master\\source\\repos\\SignalrDocumentation\\ChatWithAuth.DAL\\ChatWithAuth.DAL.csproj": {}
+    "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\ChatWithAuth.DAL\\ChatWithAuth.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Master\\source\\repos\\SignalrDocumentation\\ChatWithAuth.DAL\\ChatWithAuth.DAL.csproj": {
+    "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\ChatWithAuth.DAL\\ChatWithAuth.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Master\\source\\repos\\SignalrDocumentation\\ChatWithAuth.DAL\\ChatWithAuth.DAL.csproj",
+        "projectUniqueName": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\ChatWithAuth.DAL\\ChatWithAuth.DAL.csproj",
         "projectName": "ChatWithAuth.DAL",
-        "projectPath": "C:\\Users\\Master\\source\\repos\\SignalrDocumentation\\ChatWithAuth.DAL\\ChatWithAuth.DAL.csproj",
-        "packagesPath": "C:\\Users\\Master\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Master\\source\\repos\\SignalrDocumentation\\ChatWithAuth.DAL\\obj\\",
+        "projectPath": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\ChatWithAuth.DAL\\ChatWithAuth.DAL.csproj",
+        "packagesPath": "C:\\Users\\smc\\.nuget\\packages\\",
+        "outputPath": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\ChatWithAuth.DAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Master\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\smc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -65,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,61 +1,32 @@
+/* Reset default margin and padding on body and html */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure body and html fill the viewport height */
+}
+
+
+
+
 body {
-  padding: 5%;
-  background-color: #F5F5F5;
+    
+    background-color: #F5F5F5;
+    height: 100vh;
 }
 
 .container {
   padding:0;
   background-color: #FFF; 
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  height: 700px;
 }
 
-/* ===== MENU ===== */
-.menu {
-  float: left;
-  height: 700px;;
-  width: 70px;
-  background: #4768b5;
-  background: -webkit-linear-gradient(#4768b5, #35488e);
-  background: -o-linear-gradient(#4768b5, #35488e);
-  background: -moz-linear-gradient(#4768b5, #35488e);
-  background: linear-gradient(#4768b5, #35488e);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19);
-}
-
-.menu .items {
-  list-style:none;
-  margin: auto;
-  padding: 0;
-}
-
-.menu .items .item {
-  height: 70px;
-  border-bottom: 1px solid #6780cc;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  color: #9fb5ef;
-  font-size: 17pt;
-}
-
-.menu .items .item-active {
-  background-color:#5172c3;
-  color: #FFF;
-}
-
-.menu .items .item:hover {
-  cursor: pointer;
-  background-color: #4f6ebd;
-  color: #cfe5ff;
-}
 
 /* === CONVERSATIONS === */
 
 .discussions {
   width: 35%;
   height: 700px;
-  box-shadow: 0px 8px 10px rgba(0,0,0,0.20);
+  /*
+  box-shadow: 0px 8px 10px rgba(0,0,0,0.20);*/
   overflow: hidden;
   background-color: #87a3ec;
   display: inline-block;
@@ -95,7 +66,7 @@ body {
   height:38px;
   width:100%;
   border:none;
-  font-family: 'Montserrat', sans-serif;;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .discussions .search .searchbar *::-webkit-input-placeholder {

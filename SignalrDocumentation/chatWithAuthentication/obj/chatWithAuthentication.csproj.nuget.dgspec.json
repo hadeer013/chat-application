@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Master\\source\\repos\\SignalrDocumentation\\chatWithAuthentication\\chatWithAuthentication.csproj": {}
+    "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatWithAuthentication\\chatWithAuthentication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Master\\source\\repos\\SignalrDocumentation\\ChatWithAuth.DAL\\ChatWithAuth.DAL.csproj": {
+    "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\ChatWithAuth.DAL\\ChatWithAuth.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Master\\source\\repos\\SignalrDocumentation\\ChatWithAuth.DAL\\ChatWithAuth.DAL.csproj",
+        "projectUniqueName": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\ChatWithAuth.DAL\\ChatWithAuth.DAL.csproj",
         "projectName": "ChatWithAuth.DAL",
-        "projectPath": "C:\\Users\\Master\\source\\repos\\SignalrDocumentation\\ChatWithAuth.DAL\\ChatWithAuth.DAL.csproj",
-        "packagesPath": "C:\\Users\\Master\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Master\\source\\repos\\SignalrDocumentation\\ChatWithAuth.DAL\\obj\\",
+        "projectPath": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\ChatWithAuth.DAL\\ChatWithAuth.DAL.csproj",
+        "packagesPath": "C:\\Users\\smc\\.nuget\\packages\\",
+        "outputPath": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\ChatWithAuth.DAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Master\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\smc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -65,21 +74,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Master\\source\\repos\\SignalrDocumentation\\chatWithAuthentication\\chatWithAuthentication.csproj": {
+    "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatWithAuthentication\\chatWithAuthentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Master\\source\\repos\\SignalrDocumentation\\chatWithAuthentication\\chatWithAuthentication.csproj",
+        "projectUniqueName": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatWithAuthentication\\chatWithAuthentication.csproj",
         "projectName": "chatWithAuthentication",
-        "projectPath": "C:\\Users\\Master\\source\\repos\\SignalrDocumentation\\chatWithAuthentication\\chatWithAuthentication.csproj",
-        "packagesPath": "C:\\Users\\Master\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Master\\source\\repos\\SignalrDocumentation\\chatWithAuthentication\\obj\\",
+        "projectPath": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatWithAuthentication\\chatWithAuthentication.csproj",
+        "packagesPath": "C:\\Users\\smc\\.nuget\\packages\\",
+        "outputPath": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\chatWithAuthentication\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Master\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\smc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,8 +106,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Master\\source\\repos\\SignalrDocumentation\\ChatWithAuth.DAL\\ChatWithAuth.DAL.csproj": {
-                "projectPath": "C:\\Users\\Master\\source\\repos\\SignalrDocumentation\\ChatWithAuth.DAL\\ChatWithAuth.DAL.csproj"
+              "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\ChatWithAuth.DAL\\ChatWithAuth.DAL.csproj": {
+                "projectPath": "F:\\GitHubRepos\\chat-application\\SignalrDocumentation\\ChatWithAuth.DAL\\ChatWithAuth.DAL.csproj"
               }
             }
           }
@@ -103,6 +116,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -163,7 +181,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
